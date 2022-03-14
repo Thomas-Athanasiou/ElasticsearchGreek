@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
+<!--
+    Thomas Athanasiou at Hippiemonkeys
+    Copyright (c) 2022 Hippiemonkeys (https://hippiemonkeys.com)
+    Hippiemonkeys_ElasticsearchGreek
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Elasticsearch\Model\Adapter\Index\Builder">
         <plugin name="hippiemonkeys_elasticsearchgreek_indexbuilder" type="Hippiemonkeys\ElasticsearchGreek\Plugin\Model\Adapter\Index\GreekBuilder"></plugin>
